@@ -71,7 +71,7 @@ def mediana_pontos():
 
     print(("O {} manteve a maior pontuação dos jogos - maior sequencia de pontos: {}").format(mediana_pt['time'], mediana_pt['pontos']))
 
-times = ['CORINTHIANS', 'SAOPAULO', 'PALMEIRAS', 'SANTOS', 'FLAMENTO']
+times = ['CORINTHIANS', 'SAOPAULO', 'PALMEIRAS', 'SANTOS', 'FLAMENGO']
 
 dicionario = {}
 
