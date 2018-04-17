@@ -14,6 +14,7 @@
 import statistics
 
 def separa_pontos(campeonato):
+    print("\nResultado do Campeonato")
     for time in campeonato:
         if time.get('time') == 'CORINTHIANS':
             pontos_corinthians.append(time.pop('pontos'))
@@ -105,8 +106,6 @@ for time in times:
 
         dicionario = {"time": time, "pontos": pontos, "rodada": r}
         campeonato.append(dicionario)
-
-print("\nResultado do Campeonato")
 
 separa_pontos(campeonato)
 media_pontos()
